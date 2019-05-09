@@ -1,0 +1,33 @@
+---
+title: "R Notebook"
+output: html_document
+---
+
+
+
+```{r}
+#instalando a biblioteca do tidyverse e gapminder
+library(tidyverse)
+library(gapminder)
+```
+
+```{r}
+# carregue o pacote
+df <- gapminder
+
+```
+
+```{r}
+# agora que você carregou o pacote, o objeto gapminder pode ser acessado. Dê uma olhada:
+head(df)
+```
+
+```{r}
+# quantas linhas?
+nrow(df)
+```
+
+Relatório Final
+
+
+
